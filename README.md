@@ -1,3 +1,5 @@
+This code is adapted from the main repo but made to work on MacOS. The main code branch segmentation faults on MacOS due to serial device not being found and then file close being called on a null file descripter. 
+
 # iceFUNprog
 Programmer for Devantech iCE40 modules, iceFUN and iceWerx
 
